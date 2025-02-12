@@ -8,9 +8,11 @@ const timeout = function(s) {
 };
 // https://forkify-api.herokuapp.com/v2
 ////////////////////////////////////////
+//!) Loading Recipe
 const showRecipe = async function() {
     try {
-        const res = await fetch(`https://forkify-api.herokuapp.com/api/v2/recipes/5ed6604591c37cdc054bc886`);
+        const res = await fetch(// `https://forkify-api.herokuapp.com/api/v2/recipes/664c8f193e7aa067e94e863d`
+        `https://forkify-api.herokuapp.com/api/v2/recipes/5ed6604591c37cdc054bc886`);
         const data = await res.json();
         if (!res.ok) throw new Error(`${data.message} ${res.status}`);
         let { recipe } = data.data;
@@ -25,6 +27,7 @@ const showRecipe = async function() {
             ingredients: recipe.ingredients
         };
         console.log(recipe);
+        //2) Rendering recipe
         const markup = `
     <figure class="recipe__fig">
           <img src="${recipe.image}" alt="${recipe.title}" class="recipe__img" />
@@ -77,35 +80,28 @@ const showRecipe = async function() {
         <div class="recipe__ingredients">
           <h2 class="heading--2">Recipe ingredients</h2>
           <ul class="recipe__ingredient-list">
+          ${recipe.ingredients.map((ing)=>{
+            return ` 
             <li class="recipe__ingredient">
               <svg class="recipe__icon">
                 <use href="src/img/icons.svg#icon-check"></use>
               </svg>
-              <div class="recipe__quantity">1000</div>
+              <div class="recipe__quantity">${ing.quantity}</div>
               <div class="recipe__description">
-                <span class="recipe__unit">g</span>
-                pasta
+                <span class="recipe__unit">${ing.unit}</span>
+               ${ing.description}
               </div>
             </li>
+            `;
+        }).join('')}
 
-            <li class="recipe__ingredient">
-              <svg class="recipe__icon">
-                <use href="src/img/icons.svg#icon-check"></use>
-              </svg>
-              <div class="recipe__quantity">0.5</div>
-              <div class="recipe__description">
-                <span class="recipe__unit">cup</span>
-                ricotta cheese
-              </div>
-            </li>
-          </ul>
         </div>
 
         <div class="recipe__directions">
           <h2 class="heading--2">How to cook it</h2>
           <p class="recipe__directions-text">
             This recipe was carefully designed and tested by
-            <span class="${recipe.publisher}>The Pioneer Woman</span>. Please check out
+            <span class="${recipe.publisher}">The Pioneer Woman</span>. Please check out
             directions at their website.
           </p>
           <a
@@ -120,6 +116,8 @@ const showRecipe = async function() {
           </a>
         </div>
         `;
+        recipeContainer.innerHTML = '';
+        recipeContainer.insertAdjacentHTML('afterbegin', markup);
     } catch (err) {
         alert(err);
     }
