@@ -22,7 +22,7 @@
 107C:\Users\DELL\Documents\L D\JAVASCRIPT\18-forkify\starter\node_modules\core-js\features\structured-clone.js133837580713978682 0
 134C:\Users\DELL\Documents\L D\JAVASCRIPT\18-forkify\starter\node_modules\@parcel\core\test\fixtures\invalid-source-not-file\package.json133830593839979015 0
 96C:\Users\DELL\Documents\L D\JAVASCRIPT\18-forkify\starter\node_modules\core-js\es\error\index.js133837580686915911 0
-62C:\Users\DELL\Documents\L D\JAVASCRIPT\18-forkify\starter\dist133838402372642206 1
+62C:\Users\DELL\Documents\L D\JAVASCRIPT\18-forkify\starter\dist133844493158133610 1
 91C:\Users\DELL\Documents\L D\JAVASCRIPT\18-forkify\starter\node_modules\@swc\core\binding.js133830593812300645 0
 91C:\Users\DELL\Documents\L D\JAVASCRIPT\18-forkify\starter\node_modules\msgpackr-extract\src133830593798114409 1
 108C:\Users\DELL\Documents\L D\JAVASCRIPT\18-forkify\starter\node_modules\posthtml\node_modules\posthtml-parser133830593808972966 1
@@ -46,7 +46,7 @@
 79C:\Users\DELL\Documents\L D\JAVASCRIPT\18-forkify\starter\node_modules\error-ex133830593804132379 1
 106C:\Users\DELL\Documents\L D\JAVASCRIPT\18-forkify\starter\node_modules\core-js\modules\es.iterator.take.js133837580661191340 0
 104C:\Users\DELL\Documents\L D\JAVASCRIPT\18-forkify\starter\node_modules\@parcel\workers\lib\WorkerFarm.js133830593827667146 0
-78C:\Users\DELL\Documents\L D\JAVASCRIPT\18-forkify\starter\src\js\controller.js133837585860255959 0
+78C:\Users\DELL\Documents\L D\JAVASCRIPT\18-forkify\starter\src\js\controller.js133844493143124929 0
 112C:\Users\DELL\Documents\L D\JAVASCRIPT\18-forkify\starter\node_modules\caniuse-lite\data\features\css-filters.js133830593838299876 0
 140C:\Users\DELL\Documents\L D\JAVASCRIPT\18-forkify\starter\node_modules\posthtml\node_modules\entities\lib\generated\decode-data-xml.d.ts.map133830593817848315 0
 109C:\Users\DELL\Documents\L D\JAVASCRIPT\18-forkify\starter\node_modules\core-js\stable\instance\starts-with.js133837580712773839 0
@@ -96,7 +96,7 @@
 102C:\Users\DELL\Documents\L D\JAVASCRIPT\18-forkify\starter\node_modules\caniuse-lite\data\regions\AG.js133830593815100297 0
 83C:\Users\DELL\Documents\L D\JAVASCRIPT\18-forkify\starter\src\sass\_components.scss132886955210000000 0
 99C:\Users\DELL\Documents\L D\JAVASCRIPT\18-forkify\starter\node_modules\semver\functions\rcompare.js133830593824796897 0
-68C:\Users\DELL\Documents\L D\JAVASCRIPT\18-forkify\starter\index.html133835956756134360 0
+68C:\Users\DELL\Documents\L D\JAVASCRIPT\18-forkify\starter\index.html133844482744861397 0
 97C:\Users\DELL\Documents\L D\JAVASCRIPT\18-forkify\starter\node_modules\semver\functions\coerce.js133830593811688705 0
 108C:\Users\DELL\Documents\L D\JAVASCRIPT\18-forkify\starter\node_modules\dom-serializer\lib\esm\index.d.ts.map133830593814529334 0
 87C:\Users\DELL\Documents\L D\JAVASCRIPT\18-forkify\starter\node_modules\lmdb\binding.gyp133830593834587429 0
@@ -2522,7 +2522,7 @@
 107C:\Users\DELL\Documents\L D\JAVASCRIPT\18-forkify\starter\node_modules\core-js\features\set\is-subset-of.js133837580693836451 0
 93C:\Users\DELL\Documents\L D\JAVASCRIPT\18-forkify\starter\node_modules\js-yaml\bin\js-yaml.js133830593816331772 0
 112C:\Users\DELL\Documents\L D\JAVASCRIPT\18-forkify\starter\node_modules\core-js\features\string\to-well-formed.js133837580720370790 0
-85C:\Users\DELL\Documents\L D\JAVASCRIPT\18-forkify\starter\dist\index.f7626f62.css.map133835977415178690 0
+85C:\Users\DELL\Documents\L D\JAVASCRIPT\18-forkify\starter\dist\index.f7626f62.css.map133844493158123642 0
 98C:\Users\DELL\Documents\L D\JAVASCRIPT\18-forkify\starter\node_modules\core-js\full\array\index.js133837580687913743 0
 104C:\Users\DELL\Documents\L D\JAVASCRIPT\18-forkify\starter\node_modules\lightningcss\node\targets.js.flow133830593811655901 0
 107C:\Users\DELL\Documents\L D\JAVASCRIPT\18-forkify\starter\node_modules\@swc\helpers\src\_inherits_loose.mjs133830593849713952 0
@@ -3001,7 +3001,7 @@
 109C:\Users\DELL\Documents\L D\JAVASCRIPT\18-forkify\starter\node_modules\entities\lib\esm\decode_codepoint.d.ts133830593829498677 0
 133C:\Users\DELL\Documents\L D\JAVASCRIPT\18-forkify\starter\node_modules\@parcel\core\test\fixtures\custom-format-mismatch\package.json133830593839569531 0
 107C:\Users\DELL\Documents\L D\JAVASCRIPT\18-forkify\starter\node_modules\core-js\stable\regexp\constructor.js133837580654077025 0
-80C:\Users\DELL\Documents\L D\JAVASCRIPT\18-forkify\starter\dist\logo.726d37a8.png133835977415128527 0
+80C:\Users\DELL\Documents\L D\JAVASCRIPT\18-forkify\starter\dist\logo.726d37a8.png133844493157293262 0
 88C:\Users\DELL\Documents\L D\JAVASCRIPT\18-forkify\starter\node_modules\chokidar\index.js133831496376482865 0
 111C:\Users\DELL\Documents\L D\JAVASCRIPT\18-forkify\starter\node_modules\entities\lib\esm\decode_codepoint.js.map133830593821581394 0
 100C:\Users\DELL\Documents\L D\JAVASCRIPT\18-forkify\starter\node_modules\core-js\full\instance\sort.js133837580711713531 0
@@ -5214,7 +5214,7 @@
 97C:\Users\DELL\Documents\L D\JAVASCRIPT\18-forkify\starter\node_modules\core-js\full\math\umulh.js133837580722724305 0
 97C:\Users\DELL\Documents\L D\JAVASCRIPT\18-forkify\starter\node_modules\core-js\full\map\filter.js133837580675022260 0
 99C:\Users\DELL\Documents\L D\JAVASCRIPT\18-forkify\starter\node_modules\core-js\full\map\find-key.js133837580675576348 0
-81C:\Users\DELL\Documents\L D\JAVASCRIPT\18-forkify\starter\dist\icons.21bad73c.svg133835977414779885 0
+81C:\Users\DELL\Documents\L D\JAVASCRIPT\18-forkify\starter\dist\icons.21bad73c.svg133844493157263464 0
 95C:\Users\DELL\Documents\L D\JAVASCRIPT\18-forkify\starter\node_modules\core-js\full\map\from.js133837580680642754 0
 104C:\Users\DELL\Documents\L D\JAVASCRIPT\18-forkify\starter\node_modules\core-js\full\map\get-or-insert.js133837580682217843 0
 107C:\Users\DELL\Documents\L D\JAVASCRIPT\18-forkify\starter\node_modules\core-js\full\instance\code-points.js133837580652363340 0
@@ -8119,12 +8119,12 @@
 86C:\Users\DELL\Documents\L D\JAVASCRIPT\18-forkify\starter\node_modules\.bin\semver.cmd133830594052982897 0
 102C:\Users\DELL\Documents\L D\JAVASCRIPT\18-forkify\starter\node_modules\.bin\update-browserslist-db.cmd133830594052997438 0
 102C:\Users\DELL\Documents\L D\JAVASCRIPT\18-forkify\starter\node_modules\.bin\update-browserslist-db.ps1133830594052992879 0
-83C:\Users\DELL\Documents\L D\JAVASCRIPT\18-forkify\starter\dist\favicon.8b2f57bf.png133835977414976475 0
-81C:\Users\DELL\Documents\L D\JAVASCRIPT\18-forkify\starter\dist\icons.dfd7a6db.svg133837548107262921 0
+83C:\Users\DELL\Documents\L D\JAVASCRIPT\18-forkify\starter\dist\favicon.8b2f57bf.png133844493157273300 0
+81C:\Users\DELL\Documents\L D\JAVASCRIPT\18-forkify\starter\dist\icons.dfd7a6db.svg133844493157293262 0
 80C:\Users\DELL\Documents\L D\JAVASCRIPT\18-forkify\starter\dist\index.62406edb.js133835942132664431 0
-80C:\Users\DELL\Documents\L D\JAVASCRIPT\18-forkify\starter\dist\index.e37f48ea.js133838402372509019 0
-84C:\Users\DELL\Documents\L D\JAVASCRIPT\18-forkify\starter\dist\index.e37f48ea.js.map133838402372632229 0
-81C:\Users\DELL\Documents\L D\JAVASCRIPT\18-forkify\starter\dist\index.f7626f62.css133835977414803206 0
-73C:\Users\DELL\Documents\L D\JAVASCRIPT\18-forkify\starter\dist\index.html133837548107262921 0
+80C:\Users\DELL\Documents\L D\JAVASCRIPT\18-forkify\starter\dist\index.e37f48ea.js133844493157293262 0
+84C:\Users\DELL\Documents\L D\JAVASCRIPT\18-forkify\starter\dist\index.e37f48ea.js.map133844493158123642 0
+81C:\Users\DELL\Documents\L D\JAVASCRIPT\18-forkify\starter\dist\index.f7626f62.css133844493157347478 0
+73C:\Users\DELL\Documents\L D\JAVASCRIPT\18-forkify\starter\dist\index.html133844482755908253 0
 82C:\Users\DELL\Documents\L D\JAVASCRIPT\18-forkify\starter\dist\starter.3464ddca.js133835937475521592 0
 86C:\Users\DELL\Documents\L D\JAVASCRIPT\18-forkify\starter\dist\starter.3464ddca.js.map133835937475863369 0
