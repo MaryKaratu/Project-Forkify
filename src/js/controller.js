@@ -19,7 +19,7 @@ const timeout = function (s) {
 
 ////////////////////////////////////////
 
-const controlRecipe = async function () {
+const controlRecipes = async function () {
   try {
     const id = window.location.hash.slice(1);
     console.log(id);
@@ -31,7 +31,7 @@ const controlRecipe = async function () {
     await model.loadRecipe(id);
 
     //2) Rendering recipe
-    renderRecipe.render(model.state.recipe);
+    recipeView.render(model.state.recipe);
   } catch (err) {
     alert(err);
   }
@@ -39,4 +39,6 @@ const controlRecipe = async function () {
 
 // window.addEventListener('hashchange', showRecipe);
 // window.addEventListener('load', showRecipe);
-['hashchange', 'load'].forEach(ev => window.addEventListener(ev, showRecipe));
+['hashchange', 'load'].forEach(ev =>
+  window.addEventListener(ev, controlRecipes)
+);
