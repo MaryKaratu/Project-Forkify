@@ -1,5 +1,6 @@
 import * as model from './model.js';
 import recipeView from './views/recipeView.js';
+import searchView from './views/searchView.js';
 
 // import icons from '../img/icons.svg';//Parcel 1
 import 'core-js/stable';
@@ -8,7 +9,6 @@ import 'regenerator-runtime/runtime';
 const controlRecipes = async function () {
   try {
     const id = window.location.hash.slice(1);
-    console.log(id);
 
     if (!id) return;
     recipeView.renderSpinner();
@@ -24,7 +24,14 @@ const controlRecipes = async function () {
 };
 const controlSearchResults = async function () {
   try {
-    await model.loadSearchResults('pizza');
+    //Get Serach Query
+    const query = searchView.getQuery();
+    if (!query) return;
+
+    //2. load search results
+    await model.loadSearchResults(query);
+
+    //Render Result
     console.log(model.state.search.results);
   } catch (err) {
     console.log(err);
@@ -34,5 +41,6 @@ controlSearchResults();
 
 const init = function () {
   recipeView.addHandlerRender(controlRecipes);
+  searchView.addHandlerSearch(controlSearchResults);
 };
 init();
