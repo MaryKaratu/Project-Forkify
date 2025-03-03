@@ -15,6 +15,7 @@ export default class View {
   _clear() {
     this._parentElement.innerHTML = '';
   }
+
   renderSpinner() {
     const markup = `
       <div class="spinner">
