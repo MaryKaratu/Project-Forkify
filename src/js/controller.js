@@ -2,6 +2,7 @@ import * as model from './model.js';
 import recipeView from './views/recipeView.js';
 import searchView from './views/searchView.js';
 import resultsView from './views/resultsView.js';
+import paginationView from './views/paginationView.js';
 
 // import icons from '../img/icons.svg';//Parcel 1
 import 'core-js/stable';
@@ -32,23 +33,35 @@ const controlSearchResults = async function () {
   try {
     resultsView.renderSpinner();
 
-    //Get Serach Query
+    //1. Get Serach Query
     const query = searchView.getQuery();
     if (!query) return;
 
     //2. load search results
     await model.loadSearchResults(query);
 
-    //Render Result
+    //3. Render Result
     resultsView.render(model.getSearchResultsPage());
+
+    //4. Render the initial pagination button
+    paginationView.render(model.state.search);
   } catch (err) {
     console.log(err);
   }
 };
 controlSearchResults();
 
+const controlPagination = function (gotoPage) {
+  //3. Render NEW Result
+  resultsView.render(model.getSearchResultsPage(gotoPage));
+
+  //4. Render the New pagination button
+  paginationView.render(model.state.search);
+};
+
 const init = function () {
   recipeView.addHandlerRender(controlRecipes);
   searchView.addHandlerSearch(controlSearchResults);
+  paginationView.addHandlerClick(controlPagination);
 };
 init();
