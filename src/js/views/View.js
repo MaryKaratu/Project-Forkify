@@ -18,12 +18,11 @@ export default class View {
 
     const newDOM = document.createRange().createContextualFragment(newMarkup);
     const newElements = Array.from(newDOM.querySelectorAll('*'));
-    console.log(newElements);
+
     const curElements = Array.from(this._parentElement.querySelectorAll('*'));
 
     newElements.forEach((newEl, i) => {
       const curEl = curElements[i];
-      console.log(curEl, newEl.isEqualNode(curEl));
 
       //UPDATE CHANGED TEXT
       if (
